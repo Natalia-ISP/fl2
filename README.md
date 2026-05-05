@@ -1,17 +1,33 @@
-# first_flutter_app
+# Лабораторная работа №2. Знакомство с Flutter
 
-A new Flutter project.
+**ФИО**: Пономарёва Наталья Андреевна
+**Группа**: ИСП-232
+**Дата**: 05.05.2026
 
-## Getting Started
+### Описание
+Первый Flutter-проект в браузере
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Flutter 3.x.x; 
+Dart 3.x.x; 
+Платформа: Web (Chrome);
+IDE: VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Технологии
+
+HTML5
+CSS3 (Flexbox, Grid, Media Queries)
+Git/GitHub
+
+### Как запустить
+
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+### Скриншот
+
+![приложние](first_flutter_app\img\step9_Ponomareva.png)
