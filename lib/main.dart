@@ -4,7 +4,22 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: (Scaffold(body: Center(child: Text("Hello world")))),
+      home: (Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.white,
+                Colors.blue,
+                Colors.red,
+              ],
+            ),
+          ),
+          child: Center(
+            child: Text("Hello world"),
+          ),
+        ),
+      )),
     ),
   );
 }
